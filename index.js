@@ -6,7 +6,7 @@ const names = ["Halo", "Angel", "Nyoman", "Ketut", "Aisyah"];
 // "1. Nama"
 // "2. Nama"
 // ...
-const sorter = (z,xCend)=>(xCend(z).map((name,i)=>`${i+1}.${name}`));
+const sorter = (z,a)=>(a(z).map((name,i)=>`${i+1}.${name}`))
 
 // TODO: Fungsi untuk mengurutkan array of string secara ascending
 // mengembalikan array yang sudah diurutkan
