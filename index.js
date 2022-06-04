@@ -16,7 +16,7 @@ const sortAscending = (z)=>{
 
 // TODO: Fungsi untuk mengurutkan array of string secara descending
 // mengembalikan array yang sudah diurutkan
-const sortDescending = (x)=>{
+const sortDescending = (z)=>{
   return z.sort().reverse();
 };
 
