@@ -11,13 +11,13 @@ const sorter = (z,xCend)=>(xCend(z).map((name,i)=>`${i+1}.${name}`).sort((a,b)=>
 // TODO: Fungsi untuk mengurutkan array of string secara ascending
 // mengembalikan array yang sudah diurutkan
 const sortAscending = (z)=>{
-  return x.sort();
+  return z.sort();
 };
 
 // TODO: Fungsi untuk mengurutkan array of string secara descending
 // mengembalikan array yang sudah diurutkan
 const sortDescending = (x)=>{
-  return x.sort().reverse();
+  return z.sort().reverse();
 };
 
 // ! JANGAN DIMODIFIKASI
